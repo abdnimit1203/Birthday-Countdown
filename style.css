@@ -1,36 +1,39 @@
 /*
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
+
 */
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600&display=swap');
 *{
     box-sizing: border-box;
     
 }
 body{
-   background-image: url(images/3.jpg);
+   background-image: url(images/1.jpg);
    background-size: cover;
    background-position: center center;
    display: flex;
    flex-direction: column;
    align-items: center;
    min-height: 100vh;
-   font-family:'Poppins', sans-serif;
+   font-family: 'Belanosima', sans-serif;
+   
    margin: 0;
    color: white; 
 }
 h1{  
-    background: -webkit-linear-gradient(rgb(85 43 255), #ffffff);
+    background: -webkit-linear-gradient(rgb(255, 43, 43), #ffffffce);
      -webkit-background-clip: text;
      -webkit-text-fill-color: transparent;
-    font-size: 4rem;
+    font-size: 5rem;
     margin-top: 5rem;
     margin-bottom: 2rem;
     text-align: center;
     color: white;
-    font-weight: bold;
+    
 }
 h2{
-    background: -webkit-linear-gradient(rgb(85 43 255), #ffffff);
+    background: -webkit-linear-gradient(rgb(255, 43, 43), #ffffff);
      -webkit-background-clip: text;
      -webkit-text-fill-color: transparent;
     font-weight: bold;
@@ -42,7 +45,11 @@ h2{
     justify-content: center;
 }
 .big-text{
-    
+    background-color: rgba(255, 255, 255, 0.87);
+    border: 4px solid rgba(0, 0, 0, 0);
+    color: rgba(253, 54, 28, 0.801);
+    padding: 20px;
+    font-family: Poppins;
     font-size: 6rem;
     font-weight: bold;
     line-height: 1;
@@ -52,5 +59,8 @@ h2{
     text-align: center;
 }
 .countdown-el span{
-    font-size: 1.3rem;
+    padding: 6px 20px;
+    /* background: -webkit-linear-gradient(rgb(3, 3, 3), #0000000a); */
+    box-shadow: 10px 10px 10px 20px rgba(0, 0, 0, 0.349) inset;
+    font-size: 2rem;
 }
