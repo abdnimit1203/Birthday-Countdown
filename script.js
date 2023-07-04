@@ -4,7 +4,7 @@ const hoursEl =document.getElementById("hours");
 const minsEl = document.getElementById("minutes");
 const secondsEl = document.getElementById("seconds");
 
-const birthDay = "12 Mar 2023";
+const birthDay = "12 Mar 2024";
 
 function countdown(){
     const birthDayDate = new Date(birthDay);
