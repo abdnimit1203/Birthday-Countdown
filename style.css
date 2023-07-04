@@ -64,3 +64,10 @@ h2{
     box-shadow: 10px 10px 10px 20px rgba(0, 0, 0, 0.349) inset;
     font-size: 2rem;
 }
+button{
+    border: none;
+    background-color: #83161600;
+    font-size: 3em;
+    padding-top: 30px;
+
+}

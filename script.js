@@ -3,9 +3,16 @@ const daysEl = document.getElementById("days");
 const hoursEl =document.getElementById("hours"); 
 const minsEl = document.getElementById("minutes");
 const secondsEl = document.getElementById("seconds");
+const head =document.getElementById("headline");
 
-const birthDay = "12 Mar 2024";
+let birthDay = "12 Mar 2024";
 
+function myAhiraf(){
+    
+    birthDay = "04 Jun 2024"; 
+    head.innerHTML = "NOT MY BIRTHDAY ❤️";
+
+}
 function countdown(){
     const birthDayDate = new Date(birthDay);
     const currentDate = new Date();
