@@ -7,12 +7,6 @@ const head =document.getElementById("headline");
 
 let birthDay = "12 Mar 2025";
 
-function myAhiraf(){
-    
-    birthDay = "04 Jun 2025"; 
-    head.innerHTML = "NOT MY BIRTHDAY ❤️";
-
-}
 function countdown(){
     const birthDayDate = new Date(birthDay);
     const currentDate = new Date();
